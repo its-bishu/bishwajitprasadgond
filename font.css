@@ -1,0 +1,14 @@
+*{
+    font-family: ;
+
+}
+p{
+    font-size: 16px;
+}
+a{
+    font-size: 16px;
+    font-weight: 600;
+}
+.mr-5 text-red-900:{
+    background:red;
+}
