@@ -1,6 +1,14 @@
 *{
     font-family:'Quicksand', sans-serif;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);}
+
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+
 
 }
 p{
@@ -23,4 +31,71 @@ a{
 }
 body{
      background-image: linear-gradient(to right bottom, #d16ba5, #c780bd, #bc94ce, #b3a5d8, #b1b5dc, #aeb9df, #abbde2, #a9c1e4, #9bbdea, #8ab9f0, #77b5f5, #5fb1fb);
+}
+/*
+img{
+   border-radius: 11px;
+background: linear-gradient(145deg, #9da4bb, #bac3df);
+box-shadow:  3px 3px 5px #4e525e, 
+             -3px -3px 3px #4e525e;
+}
+button{
+ border-radius: 6px;
+background: linear-gradient(145deg, #4458e5, #5069ff);
+box-shadow:   3px 3px 5px #2f3ea0, 
+              -1px -1px 5px #2f3ea0;
+}
+#box{
+   border-radius: 11px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  1px 3px 5px #4e525e, 
+             -1px -1px 5px #4e525e;}*/
+
+li,ul{
+    
+    color: black;
+}
+
+.textanime{
+    padding-top: 10px;
+}
+.animated-text{
+    color: red;
+    position: relative;
+    top:50%;
+   background-image: transparent;
+    padding: 0px;
+    height: 40px;
+    overflow: hidden;
+}
+.line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+.line:first-child{
+    animation: anime 12s infinite;
+}
+@keyframes anime{
+    0%{
+        margin-top: 0;
+    }
+    20%{
+        margin-top: -40px;
+    }
+    40%{
+        margin-top: -80px;
+    }
+    60%{
+        margin-top: -80px;
+    }
+    80%{
+        margin-top: -40px;
+    }
+    100%{
+        margin-top: 0;
+    }
+    
 }
