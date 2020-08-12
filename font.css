@@ -28,7 +28,7 @@ a{
     background:red;
 }
 body{
- background-image: linear-gradient(to bottom, #1b1818, #3f3b3c, #676264, #908c90, #bbb9bf, #c1c0cc, #c5c8d9, #c6d0e7, #a4b2d5, #8295c4, #6079b2, #3c5ea0);
+ background-image: linear-gradient(to right, #f9cdcd, #ffcdbf, #ffd1ae, #ffd89b, #ffe28c, #dfeb8f, #b9f29e, #8df7b7, #55f2e3, #54e6ff, #87d7ff, #b7c6fc);
 }
 /*
 img{
