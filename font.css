@@ -28,7 +28,7 @@ a{
     background:red;
 }
 body{
- background-image: linear-gradient(to right, #f9cdcd, #ffc1ca, #ffb5cd, #ffaad5, #ffa0e1, #ffa0e1, #ffa0e1, #ffa0e1, #ffaad5, #ffb5cd, #ffc1ca, #f9cdcd);
+ background-image: #ffffff;
 }
 /*
 img{
